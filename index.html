@@ -16,21 +16,21 @@
 <body>
   <nav class="flex justify-between w-11/12 mx-auto py-4">
     <div class="flex items-center gap-4">
-      <img class="w-15" src="assets/logo.png" alt="">
-      <h1 class="text-[#006747] font-bold text-2xl">Emergency <br> Service</h1>
+      <img class="w-10 md:w-15" src="assets/logo.png" alt="">
+      <h1 class="text-[#006747] font-bold md:text-2xl">Emergency <br> Service</h1>
     </div>
-    <div class="flex items-center gap-4">
-      <div class="flex items-center gap-2 py-[12px] px-[30px] bg-green-100 rounded-3xl">
+    <div class="flex flex-col md:flex-row items-center gap-4">
+      <div class="flex items-center gap-2 py-[6px] px-[18px] bg-green-100 rounded-3xl">
         <!-- find -->
         <p id="heart-count" class="text-[16px] font-bold">0</p>
         <img class="w-6" src="assets/heart.png" alt="">
       </div>
-      <div class="flex items-center gap-2 py-[12px] px-[30px] bg-green-100 rounded-3xl">
+      <div class="flex items-center gap-2 py-[6px] px-[18px] bg-green-100 rounded-3xl">
         <!-- find -->
         <p id="coin-count" class="text-[16px] font-bold">100</p>
         <img class="w-4" src="assets/coin.png" alt="">
       </div>
-      <div class="flex gap-2 py-[12px] px-[30px] bg-[#00A63E] rounded-3xl">
+      <div class="flex gap-2 py-[6px] px-[18px] bg-[#00A63E] rounded-3xl">
         <!-- find -->
         <p id="copy-count" class="text-[16px] font-bold text-white">2</p>
         <p class="text-[16px] font-bold text-white">Copy</p>
@@ -48,8 +48,8 @@
   </header>
 
   <main class="bg-[#DFEFFF]">
-    <div class="grid grid-cols-12  items-start w-11/12 mx-auto gap-6 pt-[50px] ">
-      <section id="emergency-box" class="col-span-9 grid grid-cols-3 gap-5">
+    <div class="grid md:grid-cols-12  items-start w-11/12 mx-auto gap-6 pt-[50px] ">
+      <section id="emergency-box" class="md:col-span-8 lg:col-span-9 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
         <!-- National Emergency Number -->
         <div class="card card-border bg-base-100  shadow">
           <div class="card-body">
@@ -285,12 +285,10 @@
           </div>
         </div>
       </section>
-      <aside class="col-span-3 bg-white shadow p-[24px]">
+      <aside class=" md:col-span-4 lg:col-span-3 bg-white shadow p-[24px]">
         <div class=" flex justify-between items-center">
-          <h1 class="font-bold text-[20px]"><i class="fa-regular fa-clock"></i> Call History</h1>
-          <button id="clear-btn" class="text-[16px] py-[12px] px-[30px] bg-[#00A63E] font-bold text-white rounded-3xl">
-            Clear
-          </button>
+          <h1 class="font-bold md:text-[20px]"><i class="fa-regular fa-clock"></i> Call History</h1>
+          <button id="clear-btn" class="md:text-[16px] py-[8px] px-[16px] bg-[#00A63E] font-bold text-white rounded-3xl"> Clear </button>
         </div>
         <!-- find -->
         <div id="history-container" class="flex flex-col gap-2">
