@@ -40,7 +40,7 @@ Answer: Create html element in a variabile. set innerHtml value in the element a
         This process continues until the event reaches the top of the DOM tree, typically
         the document or window object.
         
-4. What is Event Delegation in JavaScript? Why is it useful?
+#4. What is Event Delegation in JavaScript? Why is it useful?
         Event delegation is a technique of JavaScript where a single event listener is added to a
         parent element to manage events triggered by its child elements, without adding
         separate event listeners to each child. 
@@ -59,7 +59,7 @@ Answer: Create html element in a variabile. set innerHtml value in the element a
          Less Complex:
         We can avoid to manually add and remove event listeners when elements are added or
         removed from the DOM.
-5. What is the difference between preventDefault() and stopPropagation()
+#5. What is the difference between preventDefault() and stopPropagation()
 methods?
         PreventDefault() and stopPropagation() are two important methods of event handler in
         JavaScript. But they are used for different purpose.
