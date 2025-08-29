@@ -59,6 +59,8 @@ Answer: Create html element in a variabile. set innerHtml value in the element a
          Less Complex:
         We can avoid to manually add and remove event listeners when elements are added or
         removed from the DOM.
+
+        
 #5. What is the difference between preventDefault() and stopPropagation()
 methods?
         PreventDefault() and stopPropagation() are two important methods of event handler in
